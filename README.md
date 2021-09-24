@@ -1,2 +1,83 @@
-# Coursera-samplewebsite.github.io
-Sample Website
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment -3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food llc</h1></a>
+    
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse ">
+           <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">
+            <li>
+              <a class= href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class=" hidden-xs"> Sushi</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-cutlery"></span><br class=" hidden-xs"> Beef</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container">
+    <h1> Our Menu</h1>
+     <div class="col-lg-4 col-md-6 col-sm-12">
+     <section>  
+            <h4 id="Chicken">Chicken</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+     </section>
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h4 id="Beef">Beef</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        </section>
+     </div>
+
+     <div class="col-lg-4 col-md-12 col-sm-12">
+        <section>
+            <h4 id="Sushi">Sushi</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+        </section>
+      </div>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  
+</body>
+</html>
